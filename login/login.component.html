@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <div class="background"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 left">
+        <h2>{{appName}}</h2>
+      </div>
+      <!-- <div class="col-md-4 right">
+        <a routerLink="/dashboard" routerLinkActive="router-active">
+          <i class="material-icons">dashboard</i>
+          <p>DASHBOARD</p>
+        </a>
+        <a routerLink="" routerLinkActive="router-active" [routerLinkActiveOptions]="{exact: true}">
+          <i class="material-icons">fingerprint</i>
+          <p>LOGIN</p>
+        </a>
+        <a routerLink="/register" routerLinkActive="router-active">
+          <i class="material-icons">person_add</i>
+          <p>REGISTER</p>
+        </a>
+        <a routerLink="/lock" style="margin-right: 0" routerLinkActive="router-active">
+          <i class="material-icons">lock_open</i>
+          <p>LOCK</p>
+        </a>
+      </div> -->
+    </div>
+
+   <div class="row">
+     <div class="col-md-4 col-sm-6 offset-md-4 offset-sm-3">
+       <div class="card">
+         <div class="card-header">
+            <h3>Login</h3>
+           <!-- <div class="social-btns">
+             <button mat-icon-button><i class="fa fa-facebook-square"></i></button>
+             <button mat-icon-button><i class="fa fa-twitter"></i></button>
+             <button mat-icon-button><i class="fa fa-google-plus"></i></button>
+           </div> -->
+         </div>
+         <!-- <p class="tip">Or Be Classical</p> -->
+         <div class="card-form">
+           <div class="form-row">
+             <!-- <i class="material-icons">face</i> -->
+             <mat-form-field color="accent">
+               <input type="text" matInput placeholder="First Name"/>
+             </mat-form-field>
+           </div>
+           <div class="form-row">
+             <!-- <i class="material-icons">email</i> -->
+             <mat-form-field color="accent">
+               <input type="text" matInput placeholder="Email address"/>
+             </mat-form-field>
+           </div>
+           <div class="form-row">
+             <!-- <i class="material-icons">lock_outline</i> -->
+             <mat-form-field color="accent">
+               <input type="password" matInput placeholder="Password"/>
+             </mat-form-field>
+           </div>
+         </div>
+         <div class="card-footer">
+           <button mat-button (click)="loginBtn()">LET'S GO</button>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+</div>
